@@ -1,0 +1,20 @@
+name = "server-sg"
+main = "_worker.js"
+compatibility_date = "2023-05-26"
+[[routes]] 
+pattern = "sg1.corona19.my.id"
+custom_domain = true
+[[routes]] 
+pattern = "academy.cakap.com.sg1.corona19.my.id"
+custom_domain = true
+[[routes]] 
+pattern = "helpdesk.kelaspintar.id.sg1.corona19.my.id"
+custom_domain = true
+# node_compat = false
+workers_dev = true
+
+[vars]
+# PROXYIP = "211.230.110.231:50008"
+UUID = "ed9c6a00-922f-46a5-badd-5aa41fd35e82"
+# SOCKS5 = "127.0.0.1:1080"
+# SOCKS5_RELAY = "true"
